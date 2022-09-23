@@ -1,0 +1,30 @@
+@import "@assets/styles/mixin.scss";
+
+$font-family: "Netflix-sans";
+
+/* font weight */
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-black: 900;
+
+/* font size */
+$font-size-xxs: toRem(11px);
+$font-size-xs: toRem(12px);
+$font-size-s: toRem(13px);
+$font-size-m: toRem(15px);
+$font-size-l: toRem(20px);
+$font-size-xl: toRem(25px);
+$font-size-xxl: toRem(36px);
+$font-size-xxxl: toRem(45px);
+
+/* colors */
+$main-white: #fff;
+$gray-light: #e5e5e5;
+$gray-dark: #b3b3b3;
+$main-dark: #141414;
+$main-blue: #1976d2;
+$light-blue: #00c2ff;
+$red-darkest: red;

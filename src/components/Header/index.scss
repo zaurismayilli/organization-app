@@ -1,0 +1,50 @@
+@import "@assets/styles/main.scss";
+
+.main-header {
+  background: $main-white;
+  display: flex;
+  padding: 0 4%;
+  justify-content: space-between;
+  height: toRem(100px);
+  align-items: center;
+  -webkit-box-shadow: 0px 24px 41px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 24px 41px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 24px 41px -22px rgba(0, 0, 0, 0.75);
+  &__primary {
+    display: flex;
+    align-items: center;
+    &--logo {
+      display: block;
+      margin-right: toRem(25px);
+      width: toRem(120px);
+      height: 100%;
+    }
+    &--navigation {
+      li {
+        margin-left: toRem(20px);
+        display: inline-block;
+        a {
+          color: $main-white;
+          line-height: toRem(17px);
+          font-weight: $font-weight-light;
+          padding: 10px 14px;
+          background-color: $main-blue;
+          border-radius: 5px;
+          transition: color 0.4s;
+          &:hover {
+            color: $gray-dark;
+          }
+          &.active {
+            font-weight: $font-weight-regular;
+            color: $main-white;
+            background-color: $light-blue;
+          }
+        }
+      }
+    }
+  }
+  &__secondary {
+    display: flex;
+    align-items: center;
+  }
+}

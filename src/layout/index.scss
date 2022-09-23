@@ -1,0 +1,8 @@
+@import "@assets/styles/main.scss";
+
+.layout-body {
+  background-color: $gray-light;
+  padding: 50px 0;
+  height: calc(100vh - 258px);
+  overflow: auto;
+}

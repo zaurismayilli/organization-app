@@ -1,0 +1,28 @@
+@import "@assets/styles/main.scss";
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  max-width: 55%;
+  margin: auto;
+
+  &__input {
+    width: 100% !important;
+  }
+
+  &__title {
+    width: 100% !important;
+  }
+  &__select {
+    background-color: transparent;
+    width: 100% !important;
+    padding: 0 20px;
+    height: 56px;
+  }
+
+  &__button {
+    padding: 12px 8px !important;
+  }
+}

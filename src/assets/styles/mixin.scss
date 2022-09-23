@@ -1,0 +1,8 @@
+@function toRem($value, $base: 16px) {
+  @return calc($value / $base) * 1rem;
+}
+
+@mixin square($value) {
+  width: toRem($value);
+  height: toRem($value);
+}
